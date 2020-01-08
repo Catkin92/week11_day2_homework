@@ -14,7 +14,7 @@ public class BorrowerTest {
     @Before
     public void before() {
         borrower = new Borrower("Eugene");
-        library = new Library(2);
+        library = new Library(3);
         book1 = new Book("Pride and Prejudice", "Jane Austen", "Romance");
         book2 = new Book("It", "Steven King", "Horror");
         book3 = new Book("The Hobbit", "J.R.R.Tolkien", "Fantasy");

@@ -16,7 +16,7 @@ public class Borrower {
     }
 
     public ArrayList<Book> getBooks() {
-        return this.books;
+       return new ArrayList<Book>(this.books);
     }
 
     public void addBook(Library library, Book book) {

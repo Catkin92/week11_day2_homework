@@ -20,12 +20,12 @@ public class Library {
         this.books.add(book);
     }
 
-    public Book removeBook(Book book) {
+    public void removeBook(Book book) {
         int removedBook = this.books.indexOf(book);
-        return this.books.remove(removedBook);
+        this.books.remove(removedBook);
     }
 
     public ArrayList<Book> getBooks() {
-        return books;
+        return new ArrayList<Book>(this.books);
     }
 }
